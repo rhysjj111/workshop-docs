@@ -1,0 +1,28 @@
+site_name: Workshops Documentation
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      # toggle:
+      #   icon: material/toggle-switch-off-outline
+      #   name: Switch to dark mode
+      accent: amber
+      primary: blue
+    # - scheme: slate
+    #   toggle:
+    #     icon: material/toggle-switch
+    #     name: Switch to light mode
+    #   accent: amber
+    #   primary: lime
+

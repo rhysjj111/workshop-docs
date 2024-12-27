@@ -46,7 +46,7 @@
     };
 
     previews = {
-      enable = true;
+      enable = false;
       previews = {
         web = {
           command = [
