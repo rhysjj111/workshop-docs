@@ -41,6 +41,10 @@
           pip install -r requirements.txt
         fi
           '';
+        start_preview =''
+          cd workshop-docs
+          mkdocs serve
+          '';
         default.openFiles = [];
       };
     };
@@ -50,6 +54,11 @@
       previews = {
         web = {
           command = [
+            "bash"
+            "-c"
+            "cd workshop-docs"
+            "print('hello')"
+            "mkdocs serve"
           ];
           manager = "web";
           env = {
