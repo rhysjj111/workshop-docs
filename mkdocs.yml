@@ -7,7 +7,20 @@ nav:
     - Components: coordinator/coord-components.md
   - Techman Software:
     - Overview: techman/tech-overview.md
+    - Elements:
+      - Jobcards: techman/components/jobcard.md
+      - Jobcards:
+        - Products: techman/components/jobcard.md
+      - Purchase orders: techman/components/purchase-orders.md
+      - Returns: techman/components/returns.md
+      - Estimates: techman/components/estimates.md
+      - Customers: techman/components/customers.md
+      - Vehicles: techman/components/vehicles.md
+
 theme:
+  icon:
+    admonition:
+      tip: octicons/video-16
   name: material
   features:
     - announce.dismiss
@@ -30,6 +43,7 @@ theme:
     - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
+    - navigation.expand
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -116,22 +130,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # copyright: |
 #   &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
