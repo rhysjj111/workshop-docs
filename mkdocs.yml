@@ -10,7 +10,9 @@ nav:
     - Elements:
       - Jobcards: techman/components/jobcard.md
       - Jobcards:
-        - Products: techman/components/jobcard.md
+        - Create a Job: techman/components/jobcards/create-job.md
+        - Products: techman/components/jobcards/products.md
+        - Process an Invoice: techman/components/jobcards/send-invoice.md
       - Purchase orders: techman/components/purchase-orders.md
       - Returns: techman/components/returns.md
       - Estimates: techman/components/estimates.md
@@ -88,6 +90,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - pymdownx.blocks.caption
   - toc:
       permalink: true
   - pymdownx.arithmatex:

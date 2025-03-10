@@ -1,4 +1,4 @@
-# Customers
+# Customers and Suppliers
 
 This section will cover information related to customers, including setting up a customer.
 
@@ -57,3 +57,8 @@ This section will cover information related to customers, including setting up a
 ## Placeholder Content
 
 More detailed content about managing customers will be added here later.
+
+## Add a supplier
+
+??? tip "Tutorial"
+    <iframe src="https://scribehow.com/embed/Add_New_Supplier_in_the_System__9qGDNXVIRbGMOQUMEyNqvA?as=video" width="934" height="640" allowfullscreen frameborder="0"></iframe>
