@@ -11,14 +11,14 @@ The Job Card is a central element for recording work done by the garage and send
 This section details the steps involved in using the Job Card for various tasks.
 
 ### Create a Job
+???+ tip "Tutorial"
+    <iframe src="https://scribehow.com/embed/Creating_a_New_Job_Entry__2icJ1Qz0QU6FZF623sJwvQ?as=video" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
 1.  Navigate to the "Jobs" section.
 2.  Click the "Create New Job" button.
 3.  Fill in the required job details (customer, address, etc.).
 4.  Save the new job.
 
-??? tip "Tutorial"
-    <iframe src="https://scribehow.com/embed/Creating_a_New_Job_Entry__2icJ1Qz0QU6FZF623sJwvQ?as=video" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
 
 ### Add Product
 

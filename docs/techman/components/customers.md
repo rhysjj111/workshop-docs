@@ -7,9 +7,8 @@ This section will cover information related to customers, including setting up a
 ### Customer Details
 
 `Customer Name/Business Name`
-
-:    + Either customer or business name must be filled in. 
-+ If a name is used, the title must be selected (Mr/Mrs etc.), as this will be used in automated emails.
+:   + Either customer or business name must be filled in. 
+    + If a name is used, the title must be selected (Mr/Mrs etc.), as this will be used in automated emails.
 
 `Address`
 :   Use the search button to search for a customers address from the postcode (costs one credit, £0.10), or enter the details manually.

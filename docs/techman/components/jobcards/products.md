@@ -5,7 +5,7 @@
 This guide provides instructions on how to manage products within the job card system. Products are essential for tracking materials, parts, and services used in each job. Proper management ensures accurate job costing and inventory control.
 
 ### Add a Product
-![A screenshot of the products section](../../assets/images/products-section-screenshot.png)
+![A screenshot of the products section](../../assets/images/jobcards/products/products-section-screenshot.png)
 
 === "Add an existing product."
     1. Open the job.
@@ -23,6 +23,58 @@ This guide provides instructions on how to manage products within the job card s
     4. Fill in the 'add new product' form and "Add New Product"
         (See below for details on how to fill in the form)
     5. Edit the quantity and unit price as needed.
+
+#### Create a 'tracked' product
+![A screenshot of creating a tracked product](../../assets/images/jobcards/products/create-tracked-product.PNG)
+
+!!! note
+    **Yellow highlighted**: Inputs that will be updated each time you create a new tracked product.  
+    **Purple highlighted**: Input will be checked when the product has a surcharge.
+##### Fields
+`Tracked`
+:   Techman tracks the product when selected. This should be used wherever there is a purchased invoice.
+
+`Product Number`
+:   The product number associated with the part. This can be found on the supplier invoice (or just made up if the supplier doesn't provide one).
+
+`Supplier`
+:   The supplier of the part. If the supplier is not within the list then one must be created.
+
+`Sub Category`
+:   The sub category field will auto populate the sales and purchase nominal codes and tax codes found at the bottom of the form. For parts, find the most suitable category (if none can be found use parts > parts). There are categories for edge cases like outsourced work and small tools.
+
+`Description`
+:   The customer will see this description. Give a conscise description of the part that anyone can understand. ie. 'Front brake pads' instead of 'Front pads'. Specify the location of the parts, ie. 'Offside' or 'Nearside'.
+
+`Custom Description`
+:   A longer, more specific description if needed. Can be used for warranty information etc.
+
+`Cost Price`
+:   Price to use plus VAT
+
+`Sale Price`
+:   Sale price to customer plus VAT
+
+'Sales and Tax Codes`
+:   What sage will see
+
+`Taxable`
+:   Most things are taxable
+
+`Surcharge`
+:   Select this box when there is a surcharge and fill in the details, techman will create another product for the surcharge.  
+
+When selected, 'Surcharge Code' and 'Surcharge Amount' appear (see image below).
+
++ **Surcharge Code**: Take the product number and add an 's' on the end. ie. if the product number is 'feb108286',  the surcharge is 'feb108286s'
++ **Surcharge Amount**: Enter the amount of the surcharge (plus VAT). This is found on the supplier invoice.
+
+![A screenshot of create product surcharge](../../assets/images/jobcards/products/create-product-surcharge.PNG)
+
+
+
+
+
 
 ### Purchase orders
 !!! note
