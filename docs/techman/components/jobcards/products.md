@@ -27,6 +27,7 @@ This guide provides instructions on how to manage products within the job card s
 #### Create a 'tracked' product
 ![A screenshot of creating a tracked product](../../assets/images/jobcards/products/create-tracked-product.PNG)
 
+
 !!! note
     **Yellow highlighted**: Inputs that will be updated each time you create a new tracked product.  
     **Purple highlighted**: Input will be checked when the product has a surcharge.
