@@ -1,28 +1,30 @@
 site_name: Workshops Documentation
 site_url: https://rhysjj111.github.io/workshop-docs/
 nav:
-  - Home: index.md
-  - Workshop Coordinator:
-    - Overview: coordinator/coord-overview.md
-    - Components: coordinator/coord-components.md
+  # - Home: index.md
+  # - Workshop Coordinator:
+  #   - Overview: coordinator/coord-overview.md
+  #   - Components: coordinator/coord-components.md
   - Techman Software:
-    - Overview: techman/tech-overview.md
-    - Elements:
-      - Jobcards: techman/components/jobcard.md
-      - Jobcards:
-        - Create a Job: techman/components/jobcards/create-job.md
-        - Products: techman/components/jobcards/products.md
-        - Process an Invoice: techman/components/jobcards/send-invoice.md
-      - Purchase orders: techman/components/purchase-orders.md
-      - Returns: techman/components/returns.md
-      - Estimates: techman/components/estimates.md
-      - Customers: techman/components/customers.md
-      - Vehicles: techman/components/vehicles.md
+    # - Overview: techman/tech-overview.md
+    - Quick guide: techman/core.md
+    # - Elements:
+    #   - Jobcards: techman/components/jobcard.md
+    #   - Jobcards:
+    #     - Create a Job: techman/components/jobcards/create-job.md
+    #     - Products: techman/components/jobcards/products.md
+    #     - Process an Invoice: techman/components/jobcards/send-invoice.md
+    #   - Purchase orders: techman/components/purchase-orders.md
+    #   - Returns: techman/components/returns.md
+    #   - Estimates: techman/components/estimates.md
+    #   - Customers: techman/components/customers.md
+    #   - Vehicles: techman/components/vehicles.md
 
 theme:
   icon:
     admonition:
       tip: octicons/video-16
+      example: material/camera
   name: material
   features:
     - announce.dismiss
